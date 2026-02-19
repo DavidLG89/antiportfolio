@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>🔥 EL MEJOR DEV DEL UNIVERSO 🔥</title>
+
+<style>
+
+/* Reset innecesariamente agresivo */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive;
+    scroll-behavior: smooth;
+}
+
+/* Fondo dudoso */
+body {
+    background: linear-gradient(45deg, red, yellow, cyan, lime, purple);
+    color: hotpink;
+    overflow-x: hidden;
+}
+
+/* Header gigante */
+header {
+    background: black;
+    color: lime;
+    padding: 40px;
+    text-align: center;
+    font-size: 2rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0.3; }
+}
+
+/* Menú innecesariamente complicado */
+nav {
+    background: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: blue;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-decoration: underline wavy red;
+}
+
+/* Hero exagerado */
+.hero {
+    padding: 150px 20px;
+    text-align: center;
+    background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 10px,
+        white 10px,
+        white 20px
+    );
+    color: yellow;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    text-shadow: 5px 5px red;
+}
+
+.marquee {
+    font-size: 1.5rem;
+    background: magenta;
+    color: white;
+    padding: 10px;
+}
+
+/* Proyectos exagerados */
+.section {
+    padding: 100px 20px;
+}
+
+.card {
+    background: cyan;
+    border: 10px dotted red;
+    padding: 30px;
+    margin-bottom: 50px;
+    transform: rotate(-2deg);
+}
+
+.card:hover {
+    transform: rotate(2deg) scale(1.1);
+    transition: 0.3s;
+}
+
+/* Botón que huye */
+.arena {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#runButton {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Skill bars mentirosas */
+.skill {
+    margin: 20px 0;
+}
+
+.bar {
+    height: 30px;
+    background: black;
+    position: relative;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: lime;
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Footer dramático */
+footer {
+    background: black;
+    color: red;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    background: red;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0px); }
+    25% { transform: translateX(5px); }
+    50% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0px); }
+}
+
+</style>
+</head>
+
+<body>
+  <audio autoplay loop>
+  <source src="https://www.myinstants.com/media/sounds/windows-xp-error.mp3">
+</audio>
+
+
+<header>
+    🚀 EL BACKEND MÁS FULLSTACK DE LOS FRONTENDS 🚀
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Proyectos (todos funcionan)</a>
+    <a href="#">Skills 300%</a>
+    <a href="#">Contrátame YA</a>
+</nav>
+
+<div class="marquee">
+    <marquee>🔥 Disponible para trabajar 25 horas al día 🔥 Experto en TODO 🔥</marquee>
+</div>
+
+<section class="hero">
+    <h1>David "StackOverflow Premium" Mosquera</h1>
+    <p>
+        Soy el desarrollador más increíble que jamás haya compilado código.
+        Domino absolutamente todas las tecnologías existentes y futuras.
+        Si algo falla, claramente es culpa del usuario.
+    </p>
+    <br>
+    <button onclick="alert('Gracias por contratarme sin entrevista 😎')">
+        CONTRÁTAME O ARREPIÉNTETE
+    </button>
+</section>
+
+<section class="section">
+    <h2>🔥 Proyectos revolucionarios 🔥</h2>
+
+    <div class="card">
+        <h3>Sistema Enterprise Ultra Mega Pro Max</h3>
+        <p>
+            Arquitectura basada en microservicios distribuidos en blockchain
+            con inteligencia artificial cuántica serverless edge computing.
+            (Funciona en mi máquina).
+        </p>
+        <!-- TODO: arreglar bug antes de que lo vea el recruiter -->
+    </div>
+
+    <div class="card">
+        <h3>API que escala infinito</h3>
+        <p>
+            Maneja 0 a 3 usuarios simultáneos sin caerse (probablemente).
+            100% uptime*  
+            *Desde que la levanté hace 4 minutos.
+        </p>
+    </div>
+    
+    <br><br>
+<div class="arena">
+    <button id="runButton">📄 Descargar CV</button>
+</div>
+
+
+
+
+</section>
+
+<section class="section">
+    <h2>💪 Skills Definitivas 💪</h2>
+
+    <div class="skill">
+        Java
+        <div class="bar"><span style="width: 120%;">120%</span></div>
+    </div>
+
+    <div class="skill">
+        Spring Boot
+        <div class="bar"><span style="width: 150%;">150%</span></div>
+    </div>
+
+    <div class="skill">
+        CSS
+        <div class="bar"><span style="width: 3%;">3%</span></div>
+    </div>
+
+    <div class="skill">
+        StackOverflow Copy-Paste
+        <div class="bar"><span style="width: 999%;">999%</span></div>
+    </div>
+
+</section>
+
+<section class="section">
+    <h2>📚 Tecnologías que uso</h2>
+    <p>
+        Java, Spring, Spring Boot, Spring Security, Spring Cloud, 
+        Hibernate, JPA, JDBC, SQL Server, PostgreSQL, MySQL, MongoDB,
+        Oracle, Redis, Cassandra, Angular, React, Vue, Svelte, 
+        Node, Python, Go, Rust, Kotlin, Docker, Kubernetes, Terraform,
+        Jenkins, Azure, AWS, GCP, Arduino, COBOL, Assembly, Excel avanzado.
+    </p>
+</section>
+<section class="section">
+<h2>🏆 Premios y Reconocimientos Oficiales 🏆</h2>
+<ul>
+<li>Empleado del mes (segun mi mamá)</li>
+<li>Ganador del premio "Compila en mi máquina 2026"</li>
+<li>Top 1% en búsquedas de StackOverflow</li>
+<li>Certificado internacional en reiniciar el servidor</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💬 Testimonios 100% Reales 💬</h2>
+
+<p>“No entendí nada, pero parecía muy seguro de lo que decía.” — Un recruiter confundido</p>
+<p>“Compila… la mayoría de las veces.” — Un compañero optimista</p>
+<p>“¿Eso era un feature?” — QA después del deploy</p>
+<p>“Estoy orgullosa, aunque no sé qué hace exactamente.” — Mi mamá</p>
+
+</section>
+
+<br><br>
+<button id="doomButton">
+    🚫 NO HACER CLICK 🚫
+</button>
+
+
+<footer>
+    © 2026 Todos los derechos reservados por mí mismo porque soy increíble.
+    <br><br>
+    <!-- Si estás leyendo esto recruiter, prometo que sé centrar un div -->
+    Hecho con amor, bugs y café ☕
+</footer>
+<!-- CONTADOR FALSO 2003 -->
+<div class="counter">
+    👁 Visitantes: 000000000042
+</div>
+
+<!-- POPUPS INVASIVOS -->
+<script>
+
+/* Popup peor versión */
+window.onload = function() {
+    alert("⚠️ Esta página usa 847 cookies porque sí.");
+    alert("⚠️ Desactivar bloqueador de talento.");
+    confirm("¿Seguro que estás preparado para tanto nivel?");
+};
+
+console.log("Si ves esto, significa que abriste la consola. Bienvenido, colega.");
+console.log("Error 404: humildad not found.");
+
+/* Mensajes cringe en consola */
+console.log("%cADVERTENCIA", "color:red; font-size:40px;");
+console.log("Este sitio fue desarrollado sin dormir.");
+console.log("npm install autoestima");
+
+/* Contador falso que aumenta solo */
+let counter = 42;
+setInterval(() => {
+    counter++;
+    document.querySelector(".counter").innerText =
+        "👁 Visitantes: 0000000000" + counter;
+}, 2000);
+
+document.getElementById("doomButton").addEventListener("click", function() {
+
+    alert("Te dije que no hicieras click...");
+
+    // Girar toda la página
+    document.body.style.transform = "rotate(180deg)";
+    document.body.style.transition = "2s";
+
+    // Cambiar colores a algo peor
+    document.body.style.background = "black";
+    document.body.style.color = "lime";
+
+    // Agrandar todos los textos absurdamente
+    document.querySelectorAll("*").forEach(el => {
+        el.style.fontSize = "2rem";
+    });
+
+    // Desordenar elementos
+    document.querySelectorAll("div, section").forEach(el => {
+        el.style.position = "relative";
+        el.style.left = Math.random() * 200 + "px";
+        el.style.top = Math.random() * 200 + "px";
+    });
+
+});
+
+/* BOTÓN QUE HUYE */
+const runButton = document.getElementById("runButton");
+const arena = document.querySelector(".arena");
+
+runButton.addEventListener("mouseover", function() {
+
+    const maxX = arena.clientWidth - runButton.offsetWidth;
+    const maxY = arena.clientHeight - runButton.offsetHeight;
+
+    const randomX = Math.random() * maxX;
+    const randomY = Math.random() * maxY;
+
+    runButton.style.left = randomX + "px";
+    runButton.style.top = randomY + "px";
+
+});
+</script>
+
+</body>
+</html>
